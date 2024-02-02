@@ -1,0 +1,29 @@
+.view{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+.nav{
+    min-height: 5rem;
+    display: flex;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 2rem;
+}
+.search{
+    width: 50rem;
+}
+.menu{
+    cursor: pointer;
+}
+.shade{
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.604);
+    z-index: 1;
+}.Dashboard{
+    display: flex;
+}

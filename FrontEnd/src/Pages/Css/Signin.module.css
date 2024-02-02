@@ -1,0 +1,89 @@
+.wraper{
+    position: absolute;
+    z-index: 60;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.182);
+}
+.signin{
+    min-height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 1.2rem;
+}
+.signinForm{
+    margin: 0.1rem 0;
+    width: 40%;
+    z-index: 70;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    padding: 2.3rem 0;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    flex-direction: column;
+
+}
+.form form{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.options span{
+    cursor: pointer;
+}
+.options button{
+    width: 5rem;
+    height: 3rem;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #00C2FF;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.options img{
+    width: 2.5rem;
+}
+.options button:hover{
+    background-color: rgb(146, 146, 146);
+}
+.signinForm form input{
+    padding: 1rem;
+    border: 2px solid #00C2FF;
+    border-radius: 0.4rem;
+}
+.signupRedirect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.signupRedirect span{
+    cursor: pointer;
+}
+.Bold{
+    font-weight: 900;
+}

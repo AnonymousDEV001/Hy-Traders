@@ -1,0 +1,44 @@
+.middle input{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    border: 1px solid lightgrey;
+}
+.middle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.middle span{
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+    color: grey;
+}
+.middle span:hover{
+    color: black;
+
+}
+.middle input:focus{
+    outline: 1px solid grey;
+}
+
+
+@media only screen and (max-width: 768px){
+    .middle{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0;
+    }
+    .middle input{
+        width: 90%;
+    }
+    .middle span{
+        right: 3rem;
+    }
+}
